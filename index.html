@@ -11,7 +11,7 @@
             left: 0;
             height: 100%;
             width: 200px;
-            background-color: #f4f4f4;
+            background-color: red; /* Change background color to red */
             padding: 20px;
             box-sizing: border-box;
             display: flex;
@@ -22,6 +22,7 @@
         .sidebar h2 {
             margin-top: 0;
             margin-bottom: 20px;
+            color: white; /* Set text color to white */
         }
 
         .sidebar ul {
@@ -36,11 +37,15 @@
 
         .sidebar ul li a {
             text-decoration: none;
-            color: #333;
+            color: white; /* Set link color to white */
         }
 
         .sidebar ul li a:hover {
-            color: #555;
+            color: #eee;
+        }
+
+        .sidebar ul li.current-page a {
+            font-weight: bold; /* Make the font bold for the current page */
         }
 
         .content {
@@ -51,9 +56,9 @@
 </head>
 <body>
     <div class="sidebar">
-        <h2>Welcome to My Website</h2>
+        <h2>Storm Admin</h2>
         <ul>
-            <li><a href="/">Home</a></li>
+            <li class="current-page"><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
