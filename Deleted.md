@@ -1,3 +1,0 @@
-```lua
-local Founder = true
-```
