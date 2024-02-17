@@ -3,7 +3,7 @@
 # Site settings
 title: Architech
 description: Leading Roblox Tech Group
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0
 # Build settings
 markdown: kramdown
 plugins:
@@ -12,9 +12,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-# Font settings
-font:
-  family: Arial, sans-serif
-style:
-  override: true
