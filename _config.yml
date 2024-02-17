@@ -1,1 +1,16 @@
+# Config.yml
+
+# Site settings
+title: Architech
+description: Leading Roblox Tech Group
+
+# Theme settings
 theme: jekyll-theme-slate
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
