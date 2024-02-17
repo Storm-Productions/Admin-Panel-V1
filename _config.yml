@@ -3,7 +3,7 @@
 # Site settings
 title: Architech
 description: Leading Roblox Tech Group
-
+remote_theme: pages-themes/architect@v0.2.0
 # Build settings
 markdown: kramdown
 plugins:
