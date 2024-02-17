@@ -4,9 +4,6 @@
 title: Architech
 description: Leading Roblox Tech Group
 
-# Theme settings
-theme: Architect
-
 # Build settings
 markdown: kramdown
 plugins:
