@@ -16,3 +16,5 @@ exclude:
 # Font settings
 font:
   family: Arial, sans-serif
+style:
+  override: true
