@@ -12,3 +12,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Font settings
+font:
+  family: Arial, sans-serif
