@@ -1,5 +1,3 @@
-# My Wiki Page
-
 ## Table of Contents
 - [Home](#Overhead-V1)
 - [Section 1: Overhead V1](#Settings)
